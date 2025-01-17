@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\desktop\\sistemainfinito\\026_sistema_carrito_mvc\\proyectoferney\\sistemainfinito\\capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\desktop\\sistemainfinito\\026_sistema_carrito_mvc\\proyectoferney\\sistemainfinito\\capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\desktop\\sistemainfinito\\026_sistema_carrito_mvc\\proyectoferney\\sistemainfinito\\capapresentacionadmin\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\desktop\\sistemainfinito\\026_sistema_carrito_mvc\\proyectoferney\\sistemainfinito\\capapresentaciontienda\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionTienda\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionTienda\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionTienda\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "CapaPresentacionTienda\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:30:39.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\Content\\Site.css",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\Content\\Site.css",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Content\\Site.css",
+              "ViewState": "AQIAAC4yAAAAAAAAAAAAAEMyAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-17T20:05:27.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T19:34:16.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\ferne\\Desktop\\sistemaInfinito\\026_SISTEMA_CARRITO_MVC\\proyectoFerney\\SistemaInfinito\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:16:11.981Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
