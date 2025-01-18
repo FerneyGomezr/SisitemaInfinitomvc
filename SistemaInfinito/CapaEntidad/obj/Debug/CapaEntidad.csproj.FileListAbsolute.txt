@@ -1,0 +1,6 @@
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaEntidad\obj\Debug\CapaEntidad.pdb
