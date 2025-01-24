@@ -51,6 +51,8 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\roslyn\VBCSCompiler.exe
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Antlr3.Runtime.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaEntidad.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaNegocio.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Newtonsoft.Json.dll
@@ -62,6 +64,9 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\System.Web.WebPages.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\System.Web.WebPages.Razor.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\WebGrease.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaDatos.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaEntidad.pdb
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaNegocio.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\System.Web.Helpers.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\System.Web.Mvc.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\System.Web.Optimization.xml
@@ -72,6 +77,7 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Newtonsoft.Json.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Antlr3.Runtime.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\bin\CapaDatos.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\obj\Debug\CapaPresentacionTienda.csproj.AssemblyReference.cache
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\obj\Debug\CapaPresentacionTienda.csproj.CoreCompileInputs.cache
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionTienda\obj\Debug\CapaPres.0F0FCBD9.Up2Date

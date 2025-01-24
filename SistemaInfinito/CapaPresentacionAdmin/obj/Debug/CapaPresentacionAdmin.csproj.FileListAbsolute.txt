@@ -130,6 +130,8 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Antlr3.Runtime.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaEntidad.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaNegocio.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Newtonsoft.Json.dll
@@ -141,6 +143,9 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Web.WebPages.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Web.WebPages.Razor.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\WebGrease.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaDatos.dll
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaEntidad.pdb
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaNegocio.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Web.Helpers.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Web.Mvc.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Web.Optimization.xml
@@ -151,14 +156,9 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Newtonsoft.Json.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Antlr3.Runtime.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaDatos.pdb
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.AssemblyReference.cache
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.csproj.CoreCompileInputs.cache
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\obj\Debug\CapaPres.0D5CB2CD.Up2Date
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.dll
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\obj\Debug\CapaPresentacionAdmin.pdb
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaEntidad.dll
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaNegocio.dll
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaDatos.dll
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaEntidad.pdb
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaNegocio.pdb
-C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\CapaDatos.pdb
