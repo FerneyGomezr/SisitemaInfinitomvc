@@ -107,7 +107,7 @@ namespace CapaPresentacionAdmin.Controllers
 
         //PRODUCTOS
         #region Productos
-        [HttpPost]
+        [HttpGet]
         public JsonResult ListarProductos()
         {
             List<Producto> oLista = new List<Producto>();
@@ -202,18 +202,25 @@ namespace CapaPresentacionAdmin.Controllers
             Producto oProducto = new CN_Producto().Listar().Where(p =>p.IdProducto ==id).FirstOrDefault();
             string textoBase64= CN_Recursos.ConvertirBase64(Path.Combine(oProducto.RutaImagen, oProducto.NombreImagen), out conversion);
 
-            return Json(new { conversion=conversion,
-            textobase64=textoBase64,
-            extension=Path.GetExtension(oProducto.NombreImagen)}, JsonRequestBehavior.AllowGet);
+            return Json(new
+            { 
+                conversion=conversion,                         
+                textobase64=textoBase64,
+                extension=Path.GetExtension(oProducto.NombreImagen)}, JsonRequestBehavior.AllowGet);
         }
 
         [HttpPost]
         public JsonResult EliminarProducto(int id)
         {
+
+            if (id <= 0)
+            {
+                return Json(new { resultado = false, mensaje = "ID inválido." });
+            }
             bool respuesta = false;
             string mensaje = string.Empty;
             respuesta = new CN_Producto().Eliminar(id, out mensaje);
-            return Json(new { resultado = respuesta, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
+            return Json(new { resultado = respuesta, mensaje = mensaje });
         }
 
         #endregion Productos

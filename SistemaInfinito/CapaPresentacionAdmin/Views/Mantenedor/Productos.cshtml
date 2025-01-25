@@ -55,7 +55,7 @@
                 <input id="txtid" type="hidden" value="0" />
 
 
-                <form class="row" id="contenedor">
+                <form id="contenedor"  class="row" >
                     <div class="col-sm-3">
                         <div class="mb-2">
                             <img id="img_producto" height="197" width="200" class="border rounded mx-auto d-block img-fluid" />
@@ -71,13 +71,13 @@
                     <div class="col-sm-3">
                         <div class="mb-3">
                             <label class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="txtnombre" name="nombre" autocomplete="off"/>
+                            <input type="text" class="form-control" id="txtnombre" name="nombre" autocomplete="off" />
 
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Descripción</label>
 
-                            <textarea type="text" class="fomr-control" id="txtdescripcion" style="height:125px; resize:none" autocomplete="off"></textarea>
+                            <textarea type="text" class="fomr-control" id="txtdescripcion"  name="descripcion" style="height:125px; resize:none" autocomplete="off"></textarea>
 
 
                         </div>
@@ -98,7 +98,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">Precio</label>
-                            <input type="text" class="form-control" id="txtprecio" name="precio"  autocomplete="off"/>
+                            <input type="text" class="form-control" id="txtprecio" name="precio" autocomplete="off" />
                         </div>
 
 
@@ -127,11 +127,17 @@
 
                 </form>
 
+                <!--   mensaje de error  -->
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <div id="mensajeError" class="alert alert-danger" role="alert">
+                        </div>
+                    </div>
+                </div>
 
 
 
 
-                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -143,7 +149,8 @@
 @section Scripts{
     <script>
 
-
+        var tabladata;
+        var filaSeleccionada
 
         function mostrarImagen(input) {
             if (input.files && input.files[0]) {
@@ -158,24 +165,39 @@
 
 
 
-
-        var tabladata;
-        var filaSeleccionada
-
         tabladata = $("#tabla").DataTable({
-
-
+           
             responsive: true,
-            ordering: true,
+            ordering: false,
             "ajax" : {
-                url: '@Url.Action("ListarMarcas","Mantenedor")',
+                url: '@Url.Action("ListarProductos", "Mantenedor")',
                 type: "GET",
-                datatype: "json"
+                datatype: "json",
+                dataSrc: function (json) {
+                    
+                    console.log("JSON Response:", json); // Log the JSON response
+                    return json.data; // Adjust this based on the actual structure
+                },
+                error: function (xhr, error, thrown) {
+                    console.error("Error fetching data: ", error);
+                    console.error("Response: ", xhr.responseText);
+                }
             },
             "columns": [
+                { "data": "Nombre" },
                 { "data": "Descripcion" },
-                {
-                    "data": "Activo", "render": function (valor) {
+                { "data": "oMarca", "render": function (data) {
+                    return data.Descripcion
+                    }
+                },
+
+                { "data": "oCategoria", "render": function (data) {
+                        return data.Descripcion
+                    }
+                },
+                { "data": "Precio" },
+                { "data": "Stock" },
+                { "data": "Activo", "render": function (valor) {
 
                         if (valor) {
                             return '<span class="badge badge-success">Si</span>';
@@ -201,6 +223,7 @@
             },
         });
 
+        //cargar marcas en editar 
         jQuery.ajax({
 
            url: '@Url.Action("ListarMarcas", "Mantenedor")',
@@ -221,6 +244,8 @@
             }
         });
 
+
+        //cargar categorias en editar
            jQuery.ajax({
 
       url: '@Url.Action("ListarCategorias", "Mantenedor")',
@@ -242,6 +267,48 @@
        }
    });
 
+        //validaciones para campos obligatorios  y validar formato de precio del producto
+        jQuery.validator.addMethod("preciodecimal", function (value, element) {
+            return this.optional(element) || /^\d{0,14}(\.\d{0,2})?$/i.test(value);
+        }, "Ingrese un precio valido en el formato ##.##");
+
+        $("#contenedor").validate({
+            rules: {
+                nombre: {
+                    required: true
+                },
+                descripcion: {
+                    required: true
+                },
+                precio: {
+                    required: true,
+                    preciodecimal: true
+                },
+                stock: {
+                    required: true,
+                    number:true
+                }
+            },
+            messages: {
+                nombre: {
+                    required: "- Ingrese un nombre"
+                },
+                descripcion: {
+                    required: "- Ingrese una descripcion"
+                },
+                precio: {
+                    required: "- Ingrese un precio",
+                    preciodecimal: "- Ingrese un precio valido en el formato ##.##"
+                },
+                stock: {
+                    required: "- Ingrese un stock",
+                    number: "- Ingrese un valor numerico"
+                }
+            },
+            errorElement: 'div',
+            errorLabelContainer: '.alert-danger'
+            
+        })
 
 
 
@@ -269,7 +336,30 @@
                 $('#categoria').val(json.oCategoria.IdCategoria);   
                 $('#txtprecio').val(json.Precio);  
                 $('#txtstock').val(json.Stock);               
-                $('#cboactivo').val(json.Activo== true? 1:0);
+                $('#cboactivo').val(json.Activo == true ? 1 : 0);
+
+                jQuery.ajax({
+                    url: '@Url.Action("ImagenProducto", "Mantenedor")',
+                    type: 'POST',
+                    data: JSON.stringify({ id: json.IdProducto }),
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (data) {
+                        $("#img_producto").LoadingOverlay("hide") 
+                        if (data.conversion) {
+                            $('#img_producto').attr({"src": "data:image/" + data.extension + ";base64," + data.textobase64});
+                        }
+                    },
+                    error: function (error) {
+                        $("#img_producto").LoadingOverlay("hide") 
+                        $('#mensajeError').show();
+                        $('#mensajeError').text("Error al cargar imagen");
+                    },
+                    beforeSend: function (error) {
+                        $("#img_producto").LoadingOverlay("show")                      
+                        
+                    }
+                });
             }
             $('#FormModal').modal('show');
         }
@@ -283,13 +373,13 @@
         })
 
         //accion boton eliminar
-       $('#tabla tbody').on("click", '.btn-eliminar', function () {
-           var Marcaseleccionada = $(this).closest('tr');
-           var data = tabladata.row(Marcaseleccionada).data();
-        debugger
+        $('#tabla tbody').on("click", '.btn-eliminar', function () {
+           var productoseleccionado = $(this).closest('tr');
+           var data = tabladata.row(productoseleccionado).data();
+        console.log(data);  
                 swal({
                     title: "¡Está Seguro!",
-                    text: "¿Desea Eliminar La Marca?",
+                    text: "¿Desea Eliminar el Producto?",
                     type: "warning", // 'type' es correcto para SweetAlert 1
                     showCancelButton: true,
                     confirmButtonText: "Sí",
@@ -301,15 +391,15 @@
                 function () {
 
                         jQuery.ajax({
-                            url: '@Url.Action("EliminarMarca", "Mantenedor")',
+                            url: '@Url.Action("EliminarProducto", "Mantenedor")',
                             type: 'POST',
-                            data: JSON.stringify({ id: data.IdMarca }),
+                            data: JSON.stringify({ id: data.IdProducto }),
                             dataType: 'json',
                             contentType: 'application/json; charset=utf-8',
                             success: function (data) {
 
                                 if (data.resultado) {
-                                    tabladata.row(Marcaseleccionada).remove().draw();
+                                    tabladata.row(productoseleccionado).remove().draw();
                                 } else {
                                     swal("No se pudo Eliminar", data.mensaje, "error");
                                 }
@@ -326,7 +416,9 @@
 
         function Guardar() {
 
-
+            if (!$("#contenedor").valid()) {
+                return;
+            }
             
 
                 var ImagenSeleccionada = $("#fileProducto")[0].files[0];

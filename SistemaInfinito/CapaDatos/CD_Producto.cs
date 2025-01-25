@@ -25,13 +25,13 @@ namespace CapaDatos
                 {
 
                     StringBuilder sb = new StringBuilder();
-                    sb.Append("select p. IdProducto,  p.Nombre, P.Descripcion,");
-                    sb.Append("m.IdMarca,m.Descripcion[DescMarca],");
-                    sb.Append("c.IdCategoria,c.Descripcion[DesCategoria],");
-                    sb.Append("p.Precio,p.Stock,p.RutaImagen,p.NombreImagen,p.Activo");
-                    sb.Append("from producto p");
-                    sb.Append("inner join Marca m on m.IdMarca = p.IdCategoria");
-                    sb.Append("inner join categoria c on c.IdCategoria = p.IdCategoria");               
+                    sb.Append("select p.IdProducto,  p.Nombre, P.Descripcion, ");
+                    sb.Append("m.IdMarca,m.Descripcion[DescMarca], ");
+                    sb.Append("c.IdCategoria,c.Descripcion[DesCategoria], ");
+                    sb.Append("p.Precio,p.Stock,p.RutaImagen,p.NombreImagen,p.Activo ");
+                    sb.Append("from producto p ");
+                    sb.Append("inner join Marca m on m.IdMarca = p.IdMarca ");
+                    sb.Append("inner join categoria c on c.IdCategoria = p.IdCategoria ");               
                     SqlCommand cmd = new SqlCommand(sb.ToString(), oconexion);
                     cmd.CommandType = CommandType.Text;
                     oconexion.Open();

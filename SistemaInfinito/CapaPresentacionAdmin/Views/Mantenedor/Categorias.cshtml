@@ -156,7 +156,7 @@
        $('#tabla tbody').on("click", '.btn-eliminar', function () {
            var categoriaseleccionada = $(this).closest('tr');
            var data = tabladata.row(categoriaseleccionada).data();
-        debugger
+        
                 swal({
                     title: "¡Está Seguro!",
                     text: "¿Desea Eliminar La Categoria?",
@@ -210,12 +210,12 @@
                 dataType: 'json',
                 contentType: 'application/json; charset=utf-8',
                  success: function (data) {
-                     debugger
+                    
                      $(".modal-body").LoadingOverlay("hide");
                     //usuario nuevo
-                     if (Categoria.Idcategoria == 0) {
+                     if (Categoria.IdCategoria == 0) {
                         if (data.resultado != 0) {
-                            Categoria.Idcategoria = data.resultado;
+                            Categoria.IdCategoria = data.resultado;
                             tabladata.row.add(Categoria).draw(false);
                             $('#FormModal').modal('hide');
 

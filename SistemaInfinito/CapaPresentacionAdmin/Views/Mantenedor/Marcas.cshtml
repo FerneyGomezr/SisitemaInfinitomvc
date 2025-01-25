@@ -130,6 +130,14 @@
             },
         });
 
+
+    
+
+
+
+
+
+
         function abrirModal(json) {
             $('#txtid').val(0);
             $('#txtdescripcion').val("");
@@ -157,7 +165,7 @@
        $('#tabla tbody').on("click", '.btn-eliminar', function () {
            var Marcaseleccionada = $(this).closest('tr');
            var data = tabladata.row(Marcaseleccionada).data();
-        debugger
+        
                 swal({
                     title: "¡Está Seguro!",
                     text: "¿Desea Eliminar La Marca?",
@@ -211,7 +219,7 @@
                 dataType: 'json',
                 contentType: 'application/json; charset=utf-8',
                  success: function (data) {
-                     debugger
+                     
                      $(".modal-body").LoadingOverlay("hide");
                     //usuario nuevo
                      if (Marca.IdMarca == 0) {
