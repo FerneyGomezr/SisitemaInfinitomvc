@@ -3,52 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentacionadmin\\views\\mantenedor\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\mantenedor\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\views\\mantenedor\\categorias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\mantenedor\\categorias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentacionadmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\views\\mantenedor\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\mantenedor\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capanegocio\\cn_reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capanegocio\\cn_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capaentidad\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\views\\home\\usuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\home\\usuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\scripts\\datatables\\datatables.select.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\scripts\\datatables\\datatables.select.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capaentidad\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capanegocio\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{672DFC81-EFF8-4DD1-96BE-E14D6DA0C70E}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capanegocio\\cn_recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capadatos\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuarios.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
-              "ViewState": "AQIAAOkAAAAAAAAAAAAAAO8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T21:14:16.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dataTables.select.js",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Scripts\\DataTables\\dataTables.select.js",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Scripts\\DataTables\\dataTables.select.js",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Scripts\\DataTables\\dataTables.select.js",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Scripts\\DataTables\\dataTables.select.js",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAADUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-25T21:14:11.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categorias.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Categorias.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Mantenedor\\Categorias.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Categorias.cshtml",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Mantenedor\\Categorias.cshtml",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAowNkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T21:14:01.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Marcas.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Marcas.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Mantenedor\\Marcas.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Marcas.cshtml",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Mantenedor\\Marcas.cshtml",
-              "ViewState": "AQIAAAgBAAAAAAAAAAAowB8BAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T12:09:06.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Productos.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Productos.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Mantenedor\\Productos.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Mantenedor\\Productos.cshtml",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Mantenedor\\Productos.cshtml",
-              "ViewState": "AQIAANUAAAAAAAAAAAAowA8BAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T22:59:58.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CN_Recursos.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Recursos.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CN_Recursos.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Recursos.cs",
-              "RelativeToolTip": "CapaNegocio\\CN_Recursos.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAIwGAAAAAAAAAA",
+              "Title": "CN_Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Reporte.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Reporte.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Reporte.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Reporte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T22:44:37.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Web.config",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Web.config",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Web.config",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-01-22T22:05:16.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MantenedorController.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Controllers\\MantenedorController.cs",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Controllers\\MantenedorController.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Controllers\\MantenedorController.cs",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Controllers\\MantenedorController.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAcwHgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T22:28:16.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CN_Marca.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Marca.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CN_Marca.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Marca.cs",
-              "RelativeToolTip": "CapaNegocio\\CN_Marca.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T22:19:26.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CN_Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Producto.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CN_Producto.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Producto.cs",
-              "RelativeToolTip": "CapaNegocio\\CN_Producto.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAcwG0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T22:18:52.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CD_Marca.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Marca.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Marca.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Marca.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Marca.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAABBwIoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:23:24.09Z",
+              "WhenOpened": "2025-01-30T23:11:48.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CD_Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Producto.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Producto.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Producto.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Producto.cs",
-              "ViewState": "AQIAAMwAAAAAAAAAAAAcwNgAAAAIAAAA",
+              "Title": "Usuarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Usuarios.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T22:57:23.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T21:22:30.347Z",
+              "WhenOpened": "2025-01-30T21:00:55.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Reporte.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\Reporte.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Reporte.cs",
+              "RelativeToolTip": "CapaEntidad\\Reporte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:42:18.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwv3AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T00:05:46.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CD_Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Reporte.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Reporte.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Reporte.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Reporte.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T23:56:54.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\DetalleVenta.cs",
+              "RelativeToolTip": "CapaEntidad\\DetalleVenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T23:48:13.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Cliente.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Cliente.cs",
+              "RelativeToolTip": "CapaEntidad\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T23:45:00.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T22:49:23.867Z",
               "EditorCaption": ""
             }
           ]
