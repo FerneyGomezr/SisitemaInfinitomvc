@@ -11,6 +11,7 @@ using System.IO;
 
 namespace CapaPresentacionAdmin.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -56,6 +57,25 @@ namespace CapaPresentacionAdmin.Controllers
             respuesta = new CN_Usuarios().Eliminar(id, out mensaje);
             return Json(new { resultado = respuesta, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
         }
+
+        [HttpPost]
+        public JsonResult CambiarClave(int id,string nuevaclave)
+        {
+            bool respuesta = false;
+            string mensaje = string.Empty;
+            respuesta = new CN_Usuarios().CambiarClave(id, nuevaclave,out mensaje);
+            return Json(new { resultado = respuesta, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult ReestablecerClave(int id, string correo)
+        {
+            bool respuesta = false;
+            string mensaje = string.Empty;
+            respuesta = new CN_Usuarios().CambiarClave(id, correo, out mensaje);
+            return Json(new { resultado = respuesta, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
+        }
+
 
         [HttpGet]
         public JsonResult ListarReporte(string fechainicio, string fechafin, string idtransaccion)
