@@ -187,3 +187,4 @@ C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPres
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Memory.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Numerics.Vectors.xml
 C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ferne\Documents\gitAngular\SisitemaInfinitomvc\SistemaInfinito\CapaPresentacionAdmin\bin\Content\Site.css

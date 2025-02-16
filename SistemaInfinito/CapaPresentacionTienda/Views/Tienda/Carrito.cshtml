@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Carrito";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div  class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <!--detalle del producto-->
+                        <div class="col-sm-8"></div>
+
+                        <!--detalle del envio-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title"> Detalle Envío</h5>
+                                    <form>
+                                        <div class="mb-2">
+                                            <label for="cbodepartamento" class="form-label">Departamento: </label>
+                                            <select class="form-select form-select-sm" id="cbodepartamento"></select>
+
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="cbomunicipio" class="form-label">municipio</label>
+                                            <select class="form-select form-select-sm" id="cbomunicipio"></select>
+
+                                        </div>
+
+                                        <div class="mb-2">
+                                            <label for="txtdireccion" class="form-label">Dirección: </label>
+                                            <input type="text" class="form-control form-control-sm" id="txtdireccion" />
+
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="txtnombrecontacto" class="form-label">Nombre Contacto: </label>
+                                            <input type="text" class="form-control form-control-sm" id="txtnombrecontacto" />
+
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="txttelefono" class="form-label">Teléfono</label>
+                                            <input type="text" class="form-control form-control-sm" id="txttelefono" />
+
+                                        </div>
+                                        <!--la class d-grid hace que se ajuste al ancho-->
+                                        <div class="d-grid">
+                                            <button class="btn btn-success" type="button" onclick="RealizarPago()">
+                                                <i class="fab fa-paypal"></i> Terminar y Procesar Pago
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+@section scripts{
+    
+    <script>
+    $(document).ready(function () {
+        ListarDepartamento();
+        
+    });
+
+        function ListarDepartamento() {
+             $("<option>").attr({ "value": "00","disabled":"disabled","selected":"true" }).text("Seleccionar").appendTo("#cbodepartamento")
+            jQuery.ajax({
+                url: "@Url.Action("ObtenerDepartamento", "Tienda")",
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    if (response.data != null ) {
+                        
+                        $.each(response.data, function (index, item) {
+                            $("<option>").attr({ "value": item.IdDepartamento }).text(item.Descripcion).appendTo("#cbodepartamento");
+                        });
+
+                        ListarMunicipios();
+                    } 
+                }
+            })
+        }
+        $("#cbodepartamento").on("change", function () {
+            ListarMunicipios();
+        })
+
+        function ListarMunicipios() {
+            $("#cbomunicipio").html("")
+
+            $("<option>").attr({ "value": "00", "disabled": "disabled", "selected": "true" }).text("Seleccionar").appendTo("#cbomunicipio")
+                 jQuery.ajax({
+                     url: "@Url.Action("ObtenerMunicipio", "Tienda")",
+                     type: "POST",
+                     data: JSON.stringify({ IdDepartamento: $("#cbodepartamento option:selected").val() }),
+                     dataType: "json",
+                     contentType: "application/json; charset=utf-8",
+                     success: function (response) {
+                         if (response.data != null) {
+
+                             $.each(response.data, function (index, item) {
+                                 $("<option>").attr({ "value": item.IdMunicipio}).text(item.Descripcion).appendTo("#cbomunicipio")
+                             })
+
+
+                         }
+                     }
+                 })
+        }
+
+    </script>
+ }
+
+
+

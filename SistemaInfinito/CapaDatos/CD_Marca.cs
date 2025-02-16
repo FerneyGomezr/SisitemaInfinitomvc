@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace CapaDatos
 {
@@ -32,6 +34,51 @@ namespace CapaDatos
                                 IdMarca = Convert.ToInt32(rdr["IdMarca"]),
                                 Descripcion = rdr["Descripcion"].ToString(),
                                 Activo = Convert.ToBoolean(rdr["Activo"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                lista = new List<Marca>();
+            }
+            return lista;
+        }
+
+
+
+        public List<Marca> ListarMarcaPorCategoria(int idcategoria)
+        {
+            List<Marca> lista = new List<Marca>();
+
+            try
+            {
+                using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
+                {
+
+                    StringBuilder query = new StringBuilder();
+                    query.Append("select distinct M.IdMarca, M.Descripcion from PRODUCTO p ");
+                    query.Append("inner join CATEGORIA C on C.IdCategoria = p.IdCategoria ");
+                    query.Append("inner join MARCA M on M.IdMarca = p.IdMarca and M.Activo = 1 ");
+                    query.Append("where c.IdCategoria=iif(@Idcategoria=0,c.IdCategoria,@Idcategoria)");
+ 
+
+
+
+                   
+                    SqlCommand cmd = new SqlCommand(query.ToString(), oconexion);
+                    cmd.Parameters.AddWithValue("@Idcategoria", idcategoria);
+                    cmd.CommandType = CommandType.Text;
+                    oconexion.Open();
+                    using (SqlDataReader rdr = cmd.ExecuteReader())
+                    {
+                        while (rdr.Read())
+                        {
+                            lista.Add(new Marca()
+                            {
+                                IdMarca = Convert.ToInt32(rdr["IdMarca"]),
+                                Descripcion = rdr["Descripcion"].ToString()
                             });
                         }
                     }

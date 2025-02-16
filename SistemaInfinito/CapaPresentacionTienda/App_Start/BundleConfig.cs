@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Optimization;
+using System.Xml.Linq;
 
 namespace CapaPresentacionTienda
 {
@@ -21,9 +22,14 @@ namespace CapaPresentacionTienda
             //            "~/Scripts/modernizr-*"));
 
             bundles.Add(new Bundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.bundle.js"));
-
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+                      "~/Scripts/bootstrap.bundle.js",
+                      "~/Scripts/loadingoverlay.min.js",
+                      "~/Scripts/fontawesome/all.min.js",
+                      "~/Scripts/sweetalert.min.js"));       
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/site.css",
+                "~/Content/sweetalert.css"
+                ));
         }
     }
 }
