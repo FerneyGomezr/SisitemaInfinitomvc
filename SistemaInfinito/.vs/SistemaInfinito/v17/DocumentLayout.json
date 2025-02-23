@@ -7,63 +7,59 @@
       "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\filter\\validarsessionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\filter\\validarsessionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capanegocio\\cn_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\views\\tienda\\pagoefectuado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\tienda\\pagoefectuado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\views\\tienda\\miscompras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\tienda\\miscompras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\views\\tienda\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\tienda\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capanegocio\\cn_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6977FECC-79E9-4EEE-9173-5490FE129AD9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\views\\acceso\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\acceso\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capadatos\\cd_carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\views\\tienda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capanegocio\\cn_paypal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_paypal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2B9F77-2A71-4996-9CA8-88A1C3574757}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capadatos\\cd_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD46680-4ECB-496C-81E9-81775DE6B6D9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\views\\tienda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\tienda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|c:\\users\\ferne\\documents\\gitangular\\sisitemainfinitomvc\\sistemainfinito\\capapresentaciontienda\\views\\acceso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\capapresentaciontienda\\views\\acceso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EE4FE4A-9264-4AC0-928C-446EC631ED93}|CapaPresentacionTienda\\CapaPresentacionTienda.csproj|solutionrelative:capapresentaciontienda\\views\\acceso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -74,71 +70,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PagoEfectuado.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\PagoEfectuado.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Tienda\\PagoEfectuado.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\PagoEfectuado.cshtml",
-              "RelativeToolTip": "CapaPresentacionTienda\\Views\\Tienda\\PagoEfectuado.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "DocumentIndex": 2,
+              "Title": "MisCompras.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\MisCompras.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Tienda\\MisCompras.cshtml",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\MisCompras.cshtml",
+              "RelativeToolTip": "CapaPresentacionTienda\\Views\\Tienda\\MisCompras.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T00:13:37.696Z",
+              "WhenOpened": "2025-02-23T13:13:25.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CN_Venta.cs",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Venta.cs",
               "RelativeDocumentMoniker": "CapaNegocio\\CN_Venta.cs",
               "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Venta.cs",
               "RelativeToolTip": "CapaNegocio\\CN_Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T23:42:27.848Z",
+              "WhenOpened": "2025-02-23T13:07:41.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CD_Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Usuarios.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Usuarios.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Usuarios.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Usuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T23:31:57.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CD_Venta.cs",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Venta.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Venta.cs",
               "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Venta.cs",
               "RelativeToolTip": "CapaDatos\\CD_Venta.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAhwDAAAAAMAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T23:31:49.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Venta.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Venta.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaEntidad\\Venta.cs",
-              "RelativeToolTip": "CapaEntidad\\Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T23:16:50.525Z",
+              "WhenOpened": "2025-02-23T13:00:11.58Z",
               "EditorCaption": ""
             },
             {
@@ -149,40 +119,53 @@
               "RelativeDocumentMoniker": "CapaPresentacionTienda\\Controllers\\TiendaController.cs",
               "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Controllers\\TiendaController.cs",
               "RelativeToolTip": "CapaPresentacionTienda\\Controllers\\TiendaController.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAawNkAAAAKAAAA",
+              "ViewState": "AQIAACsBAAAAAAAAAAAuwDEBAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T22:54:07.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Registrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Acceso\\Registrar.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Acceso\\Registrar.cshtml",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Acceso\\Registrar.cshtml",
-              "RelativeToolTip": "CapaPresentacionTienda\\Views\\Acceso\\Registrar.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T22:50:31.12Z",
+              "DocumentIndex": 1,
+              "Title": "ValidarSessionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Filter\\ValidarSessionAttribute.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionTienda\\Filter\\ValidarSessionAttribute.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Filter\\ValidarSessionAttribute.cs",
+              "RelativeToolTip": "CapaPresentacionTienda\\Filter\\ValidarSessionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:45:21.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "CN_Paypal.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Paypal.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Paypal.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Paypal.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Paypal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:25:21.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Carrito.cshtml",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\Carrito.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Tienda\\Carrito.cshtml",
               "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\Carrito.cshtml",
               "RelativeToolTip": "CapaPresentacionTienda\\Views\\Tienda\\Carrito.cshtml",
-              "ViewState": "AQIAAHYBAAAAAAAAAAAwwJYBAAAWAAAA",
+              "ViewState": "AQIAAKkBAAAAAAAAAAAwwL4BAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-16T20:51:22.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Shared\\_Layout.cshtml",
@@ -195,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CN_Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaNegocio\\CN_Usuarios.cs",
               "RelativeDocumentMoniker": "CapaNegocio\\CN_Usuarios.cs",
@@ -217,6 +200,19 @@
               "ViewState": "AQIAAH8AAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T22:49:39.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CD_Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Carrito.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Carrito.cs",
+              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Carrito.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Carrito.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAlwJQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:51:30.807Z",
               "EditorCaption": ""
             },
             {
@@ -247,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Acceso\\Index.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Acceso\\Index.cshtml",
@@ -260,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaPresentacionTienda\\Views\\Tienda\\Index.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionTienda\\Views\\Tienda\\Index.cshtml",
@@ -269,19 +265,6 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-22T18:19:42.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CD_Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Carrito.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Carrito.cs",
-              "ToolTip": "C:\\Users\\ferne\\Documents\\gitAngular\\SisitemaInfinitomvc\\SistemaInfinito\\CapaDatos\\CD_Carrito.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Carrito.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAApwLMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:51:30.807Z",
               "EditorCaption": ""
             }
           ]

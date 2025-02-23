@@ -8,6 +8,9 @@ using CapaEntidad;
 using System.IO;
 using System.Threading.Tasks;
 using System.Data;
+using CapaEntidad.Paypal;
+using System.Globalization;
+using CapaPresentacionTienda.Filter;
 
 namespace CapaPresentacionTienda.Controllers
 {
@@ -180,6 +183,8 @@ namespace CapaPresentacionTienda.Controllers
             List<Municipio> lista = new CN_Ubicacion().ObtenerMunicipio(IdDepartamento);
             return Json(new { data = lista }, JsonRequestBehavior.AllowGet);
         }
+        [ValidarSession]
+        [Authorize]
         public ActionResult Carrito()
         {
             return View();
@@ -194,10 +199,24 @@ namespace CapaPresentacionTienda.Controllers
             detalle_venta.Columns.Add("Cantidad", typeof(int));
             detalle_venta.Columns.Add("TotaL", typeof(decimal));
 
+
+            List<Item> oLista = new List<Item>();
+
+
            foreach (var item in oListaCarrito)
            {
                 decimal subtotal =Convert.ToDecimal(item.Cantidad.ToString()) * item.oProducto.Precio;
                 total += subtotal;
+                oLista.Add(new Item()
+                {
+                    name = item.oProducto.Nombre,
+                    quantity = item.Cantidad.ToString(),
+                    unit_amount = new UnitAmount()
+                    {
+                        currency_code = "USD",
+                        value = item.oProducto.Precio.ToString("G",new CultureInfo("es-CO"))
+                    }
+                });
                 detalle_venta.Rows.Add(new object[]
                 {
                     item.oProducto.IdProducto,
@@ -208,22 +227,71 @@ namespace CapaPresentacionTienda.Controllers
                 
            }
 
+            PurchaseUnit purchaseUnit = new PurchaseUnit()
+            {
+                amount = new Amount()
+                {
+                    currency_code = "USD",
+                    value = total.ToString("G", new CultureInfo("es-CO")),
+                    breakdown = new Breakdown()
+                    {
+                        item_total = new ItemTotal()
+                        {
+                            currency_code = "USD",
+                            value = total.ToString("G", new CultureInfo("es-CO"))
+                        }
+                    }
+                },
+                description = "Compra de productos",
+                items = oLista
+            };
+
+            Checkout_Order oCheckOutOrder = new Checkout_Order()
+            {
+                intent = "CAPTURE",
+                purchase_units = new List<PurchaseUnit>()
+                {
+                    purchaseUnit
+                },
+                application_context = new ApplicationContext()
+                {
+                    brand_name = "Cosméticos Infinito",
+                    landing_page = "NO_PREFERENCE",
+                    user_action = "PAY_NOW",
+                    return_url = "https://localhost:44372/Tienda/PagoEfectuado",
+                    cancel_url = "https://localhost:44372/Tienda/Carrito"
+                }
+            };
+
            oVenta.MontoTotal = total;
            oVenta.IdCliente = ((Cliente)Session["Cliente"]).IdCliente;
            TempData["Venta"] = oVenta;
            TempData["DetalleVenta"] = detalle_venta;
-            return Json(new { Status = true ,Link ="/Tienda/PagoEfectuado?idTransaccion=code0001&status=true"}, JsonRequestBehavior.AllowGet);
+
+
+            CN_Paypal oPaypal = new CN_Paypal();
+            Response_Paypal<Response_Checkout> response_paypal = new Response_Paypal<Response_Checkout>();
+            response_paypal= await oPaypal.CrearSolicitud(oCheckOutOrder);
+
+            return Json(response_paypal, JsonRequestBehavior.AllowGet);
         }
+
+        [ValidarSession]
+        [Authorize]
         public async Task<ActionResult> PagoEfectuado() { 
-          string idtransaccion = Request.QueryString["idTransaccion"];
-          bool status = Convert.ToBoolean(Request.QueryString["status"]);
-            ViewData["Status"] = status;
-            if(status)
+          string token = Request.QueryString["token"];
+            CN_Paypal oPaypal = new CN_Paypal();
+            Response_Paypal<Response_Capture> response_paypal = new Response_Paypal<Response_Capture>();
+            response_paypal = await oPaypal.AprobarPago(token);
+
+         
+            ViewData["Status"] = response_paypal.Status;
+            if(response_paypal.Status)
             {
               
                 Venta oVenta = (Venta) TempData["Venta"] ;
                 DataTable detalle_venta = (DataTable) TempData["DetalleVenta"];
-                oVenta.IdTransaccion = idtransaccion;
+                oVenta.IdTransaccion = response_paypal.Response.purchase_units[0].payments.captures[0].id;
                 string mensaje= string.Empty;
                 bool respuesta = new CN_Venta().Registrar(oVenta, detalle_venta,out mensaje);
 
@@ -233,6 +301,34 @@ namespace CapaPresentacionTienda.Controllers
             return View();
         }
 
+
+        [ValidarSession]
+        [Authorize]
+        public ActionResult MisCompras()
+        {
+            int idcliente = ((Cliente)Session["Cliente"]).IdCliente;
+            List<DetalleVenta> olista = new List<DetalleVenta>();
+            bool conversion;
+            olista = new CN_Venta().ListarCompras(idcliente).Select(p => new DetalleVenta()
+            {
+                oProducto = new Producto()
+                {
+                    
+                    Nombre = p.oProducto.Nombre,                    
+                    Precio = p.oProducto.Precio,                    
+                    base64 = CN_Recursos.ConvertirBase64(Path.Combine(p.oProducto.RutaImagen, p.oProducto.NombreImagen), out conversion),
+                    extension = Path.GetExtension(p.oProducto.NombreImagen),
+                   
+
+                },
+                Cantidad = p.Cantidad,
+                Total = p.Total,
+                IdTransaccion = p.IdTransaccion
+            }).ToList();
+
+
+            return View(olista);
+        }
 
     }
 }
