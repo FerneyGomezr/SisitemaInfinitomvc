@@ -14,7 +14,8 @@ namespace CapaEntidad
         public int TotalProducto { get; set; }
         public Decimal MontoTotal { get; set; }
         public string Contacto { get; set; }
-        public string IdDistrito { get; set; }
+        public string IdDepartamento { get; set; }
+        public string IdMunicipio { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
         public string FechaTexto { get; set; }

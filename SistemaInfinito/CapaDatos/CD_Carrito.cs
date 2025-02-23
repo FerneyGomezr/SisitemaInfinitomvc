@@ -7,6 +7,8 @@ using CapaEntidad;
 using System.Data.SqlClient;
 using System.Data;
 using System.Globalization;
+using System.Reflection;
+using System.Text.RegularExpressions;
 
 
 
@@ -112,7 +114,8 @@ namespace CapaDatos
             {
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cn))
                 {
-                    string query = "select * from fn_obtnerCarritoCliente(@IdCliente)";
+                    //string query = "select * from fn_obtnerCarritoCliente (@IdCliente)";
+                    string query = "select p.IdProducto,m.Descripcion[DesMarca],p.Nombre,p.Precio,c.Cantidad,p.RutaImagen,p.NombreImagen from Carrito c inner join PRODUCTO p   on p.IdProducto = c.IdProducto inner join MARCA m  on m.IdMarca = p.IdMarca where c.IdCliente = @IdCliente";
                     SqlCommand cmd = new SqlCommand(query, oconexion);
                     cmd.Parameters.AddWithValue("@IdCliente", idcliente);
                     cmd.CommandType = CommandType.Text;
@@ -157,7 +160,7 @@ namespace CapaDatos
                 {
                     SqlCommand cmd = new SqlCommand("sp_Eliminarcarrito", oconexion);
                     cmd.Parameters.AddWithValue("IdCliente", idcliente);
-                    cmd.Parameters.AddWithValue("ApIdProducto", idproducto);
+                    cmd.Parameters.AddWithValue("IdProducto", idproducto);
                     cmd.Parameters.Add("Resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.CommandType = CommandType.StoredProcedure;
 
