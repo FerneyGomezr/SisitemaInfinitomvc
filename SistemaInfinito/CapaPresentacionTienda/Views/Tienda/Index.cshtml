@@ -4,17 +4,40 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<header class="bg-black py-5">
-    <div class="container px-4 px-lg-5 my-5">
+@*<header class="bg-primary py-3">
+    <div class="container px-2 px-lg-2 my-2">
         <div class="text-center text-white">
             <h1 class="display-4 fw-bolder">Cosméticos Infinito</h1>
-            <p class="lead fw-normal text-white-50 mb-0">Encuentra los mejores productos</p>
+            <p class="lead fw-normal text-black-30 mb-0">Encuentra los mejores productos</p>
+            <img src="~/Imagen/logo.png"></img>
+        </div>
+    </div>
+</header>*@
+<header class="bg-light-subtle py-1">
+    <div class="container px-4 px-lg-5 my-3">
+        <div class="row align-items-center">
+            <!-- Fila con alineación vertical centrada -->
+            <!-- Columna para la imagen -->
+            <div class="col-md-3 text-center">
+                <!-- Ajusta el tamaño de la columna según necesites -->
+                <img src="~/Imagen/logo.png" class="img-fluid" alt="Logo Cosméticos Infinito">
+                <!--
+                    - `img-fluid`: Hace que la imagen sea responsiva (se ajusta al tamaño de su contenedor).
+                    - `alt`: Texto alternativo para la imagen (accesibilidad).
+                -->
+            </div>
+            <!-- Columna para el título y el subtítulo -->
+            <div class="col-md-9 text-center text-md-start">
+                <!-- Ajusta el tamaño de la columna según necesites -->
+                <h1 class="display-4 fw-bolder">Cosméticos Infinito</h1>
+                <p class="lead fw-normal text-bg-succes mb-0">Encuentra los mejores productos</p>
+            </div>
         </div>
     </div>
 </header>
 <!-- Section-->
 <section>
-    <div class="container-fluid  px-5 my-5">
+    <div class="container-fluid  px-2 my-2">
 
         <div class="row">
 
@@ -242,7 +265,7 @@
                                  $("<div>").addClass("card-body p-4").append(
                                      $("<div>").addClass("text-center").append(
                                          $("<h5>").addClass("fw-bolder").text(element.Nombre),
-                                         $("<span>").text(element.Precio.toFixed(2) +" COP")
+                                         $("<span>").text( "$ " + element.Precio.toFixed(2) )
                                      )
                                  ),
                                  $("<div>").addClass("card-footer p-2 pt-0 border-top-0 bg-transparent").append(
